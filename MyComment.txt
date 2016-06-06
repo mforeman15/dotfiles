@@ -1,0 +1,2 @@
+This is an exercise for a course
+on git hub
