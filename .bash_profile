@@ -1,3 +1,4 @@
+#!/bin/bash
 # .bash_profile file
 # By Balaji S. Srinivasan (balajis@stanford.edu)
 #
@@ -65,8 +66,8 @@ fi
 #export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
 
 
-# Enable tab completion
-source ~/git-completion.bash
+# Enable tab completion - fix one day - maf 5/22
+# source ~/git-completion.bash
 
 # colors!
 green="\[\033[0;32m\]"
@@ -75,7 +76,7 @@ purple="\[\033[0;35m\]"
 reset="\[\033[0m\]"
 
 # Change command prompt
-source ~/git-prompt.sh
+# source ~/git-prompt.sh not on windows
 export GIT_PS1_SHOWDIRTYSTATE=1
 # '\u' adds the name of the current user to the prompt
 # '\$(__git_ps1)' adds git-related stuff
